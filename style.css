@@ -1,0 +1,83 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 800px;
+    background-color: rgb(138, 20, 40);
+    color: white;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.btn {
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-left: 480px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(13, 11, 10);
+    color: white;
+    cursor: pointer;
+    margin-top: 1px;
+
+}
+
+.quote {
+    background-color: white;
+    padding: 10px;
+    color: rgb(4, 9, 19);
+
+}
+
+.button-flex {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+.authors {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin: 5px;
+    font-size: 20px;
+    flex-grow: 1;
+    cursor: pointer;
+
+}
+
+.generate-btn {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(218, 45, 15);
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.random-quote {
+    width: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    /* background-color: rgb(253, 106, 96); */
+    color: teal;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+
+}
